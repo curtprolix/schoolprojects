@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Educate | Informus</title>
+	<meta name="Educate" content="Collection of educational resources" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC" rel="stylesheet">
+	
+	 <script>
+  		writeRandomQuote = function () {
+   			 var quotes = new Array();
+   
+	quotes[0] = "Knowledge is power. Information is liberating. Education is the premise of progress, in every society, in every family. -Kofi Annan";
+    quotes[1] = "Education is not just about going to school and getting a degree. It's about widening your knowledge and absorbing the truth about life. -Shakuntala Devi";
+    quotes[2] = "Science knows no country, because knowledge belongs to humanity, and is the torch which illuminates the world. -Louis Pasteur";
+    quotes[3] = "The only true wisdom is in knowing you know nothing. -Socrates";
+    quotes[4] = "Any fool can know. The point is to understand. -Albert Einstein";
+    quotes[5] = "The man of knowledge must be able not only to love his enemies but also to hate his friends. -Friedrich Nietzsche";
+    quotes[6] = "Your assumptions are your windows on the world. Scrub them off every once in a while, or the light won't come in.-Isaac Asimov";
+   
+   			 var rand = Math.floor(Math.random()*quotes.length);
+    
+    	document.write(quotes[rand]);
+  		}
+	</script>
+
+</head>
+
+<body>
+<div class="wrapper">
+	
+	<header class="flex_section">
+		<img id="banner_img" src="images/magnifer.png" alt="Magnifying Glass" width="200" height="200">
+		<h1 id="informus" class="logo"><a href="index.html">Inf<span id ="o">o</span>rmus</a></h1>
+	</header>
+
+	<nav id="navbar" class="flex_section">					
+		<ul>
+			<li><a href="index.html">Investigate</a></li>
+			<li><a href="consider_page.html">Consider</a></li>
+			<li><a href="educate_page.html">Educate</a></li>
+			<li><a href="about_page.html">About</a></li>
+			<li><a href="join_page.html">Join</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<div id="java_quotes" class="flex_section">
+			<script>writeRandomQuote();</script>
+		</div>
+		<section class="flex_section" id="educate_1">
+			<h3>Media Literacy</h3>
+				<p> Watch as high school students describe how media literacy has improved their lives and decision-making.</p>
+				<div class="video-container">
+				<iframe title="vimeo-player" src="https://player.vimeo.com/video/42778414" width="640" height="362" allowfullscreen></iframe>
+				</div>
+		</section>
+
+		<section class="flex_section" id="educate_2">
+			<h3>Khan Academy</h3>
+				<p>Explore why math is awesome! Explore short videos on grade school subjects from <a href="https://www.khanacademy.org/">Khan Academy</a>.</p>
+				<div class="video-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/kpCJyQ2usJ4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+		</section>
+
+		<section class="flex_section" id="educate_3">
+			<h3>Ted Ed</h3>
+				<p>Practice you reasoning &amp; critical thinking! Watch fascinating lessons that will inspire new ways of thinking from <a href="https://ed.ted.com/">Ted Ed</a>.</p>
+				<div class="video-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/dItUGF8GdTw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+		</section>
+
+		<section class="flex_section" id="educate_4">
+			<h3>Minute Videos</h3>
+				<p>Want to conduct an experiment? Learn about the scientific method and much more at <a href="https://www.youtube.com/channel/UCAsLjyYl9GW66G1mpMzr8IA">Minute Videos</a>.</p>
+				<div class="video-container">
+				<iframe width="944" height="531" src="https://www.youtube.com/embed/yi0hwFDQTSQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+		</section>
+
+		<section class="flex_section" id="educate_5">
+			<h3>Crash Course</h3>
+				<p>Become media literate! Video presentations on all kinds of topics from the folks at <a href="https://www.youtube.com/user/crashcourse">Crash Course</a>.</p>
+				<div class="video-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/AD7N-1Mj-DU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+		</section>
+
+		<section class="flex_section" id="educate_6">
+			<h3>Big Think</h3>
+				<p>Become a better learner! Explore <a href="https://bigthink.com/">Big Think's</a> collection of thought provoking interviews with today's greatest minds.</p>
+				<div class="video-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/1FvYJhpNvHY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+		</section>
+	</main>
+	
+	<small class="flex_section"> <a href="#informus">Informus 2019 &copy;</a> </small>
+	
+</div>
+</body>
+</html>

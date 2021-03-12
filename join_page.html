@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Join | Informus</title>
+	<meta name="Join page" content="Create an Informus account" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="wrapper">
+
+	<header class="flex_section">
+		<img id="banner_img" src="images/magnifer.png" alt="Magnifying Glass" width="200" height="200">
+		<h1 id="informus" class="logo"><a href="index.html">Inf<span id ="o">o</span>rmus</a></h1>
+	</header>
+
+	<nav id="navbar" class="flex_section">					
+		<ul>
+			<li><a href="index.html">Investigate</a></li>
+			<li><a href="consider_page.html">Consider</a></li>
+			<li><a href="educate_page.html">Educate</a></li>
+			<li><a href="about_page.html">About</a></li>
+			<li><a href="join_page.html">Join</a></li>
+		</ul>
+	</nav>
+
+	<main class="flex_section" id="join_main">
+	
+		<div id="join_welcome">
+			<h2> Join the investigation!</h2>
+			<p>Create an account and join our community of citizen investigators. Ask questions, present evidence, &amp; join the discussion! </p>
+			<img id="torch" src="images/torch.png" alt="flashlight" width="250" height="250">
+		</div>
+	
+		<form id="join_form" class="flex_section" method="post" action="join_page.php">
+	
+		<fieldset>
+			<legend>Create an Account</legend>
+			<div class="join_row">
+				<label for="join_email">Email Address:</label>
+				<input id="join_email" type="text" name="join_email" placeholder="ex. factorfiction@gmail.com">
+			</div>
+		
+			<div class="join_row">
+				<label for="join_username">User Name:</label>
+				<input id="join_username" type="text" name="join_username" placeholder="truthseeker500">
+			</div>
+		
+			<div class="join_row">
+				<label for="join_password">Create a Password:</label>
+				<input id="join_password" type="password" name="join_password" placeholder="Type password here">
+			</div>
+		
+			<div class="join_row">
+				<label for="join_verify">Verify Password:</label>
+				<input id="join_verify" type="password" name="join_verify" placeholder="Retype password here">	
+			</div>
+			<br>
+			<div class="join_row">
+				<label for="join_interests">Subjects of Interest:</label>
+				<textarea id="join_interests" name="join_interests"  rows="3" cols="44" placeholder="Medicine, Politics, Art, Biology etc."></textarea>
+			</div>
+		
+			<div class="join_row">	
+				<label for="join_expertise">Areas of Expertise:</label>
+				<textarea id="join_expertise" name="join_expertise" rows="3" cols="44" placeholder="History, Psychology, Chemistry, Philosophy, etc."></textarea>
+			 </div>
+		 
+			 <div class="join_row">	
+				<label for="join_permissioni">Alert me when discussions mention my area(s) of INTEREST:
+				<input id="join_permissioni" type="checkbox" name="join_permissioni"></label>
+			
+			 </div>
+			  <div class="join_row">	
+				<label for="join_permissione">Alert me when discussions mention my area(s) of EXPERTISE:
+				<input id="join_permissione" type="checkbox" name="join_permissione"></label>
+				</div>
+			 <br>
+			 <div>
+			<input type="submit" name="submit" value="Join Informus Now">
+			</div>
+		</fieldset>
+	</form>
+
+	<div id="join_benefits" class="flex_section">
+
+		<ul id="join_list">
+			<li> Become part of a large community of fact seekers.</li>
+
+			<li> Learn how to examine you own beliefs and judgments.</li>
+
+			<li> Get answers to questions from Informus community experts.</li>
+
+			<li> Submit your own arguments &amp; evidence to the Informus investigation forum.</li>
+		</ul>
+
+	</div>
+
+	</main>
+	<aside  id="join_siteDescription" class="flex_section">
+
+		<section id="join_consider" class="flex_section"> 
+			<h3>Consider</h3> 
+			<p>Learn what makes a good argument, delve into the curiosities of human reasoning &amp; the importance of information literacy in the 21st century.</p>
+			<img src="images/man-thinking.png" alt="figure thinking w/ question bubble" height="128" width="128">
+		</section>
+
+		<section id="join_investigate" class="flex_section">
+			<h3>Investigate</h3>
+			<p>Examine your reality. Submit questions, beliefs, comments &amp; evidence to the Informus community for critical discussion &amp; analysis.</p>
+			<img src="images/inquiry.png" alt="magifying glass with eye" height="128" width="128">
+		</section>
+
+		<section id="join_educate" class="flex_section">
+			<h3>Educate</h3>
+			<p>Discover more resources to build you knowledge and spark your curiosity. Go from information literate to information cultured!</p>
+			<img src="images/gears-in-bald-head-side-view.png" alt="figure with gears in head" height="128" width="128">
+		</section>
+	</aside>
+	
+	<small class="flex_section"> <a href="#informus">Informus 2019 &copy;</a> </small>
+	
+</div>
+</body>
+</html>
